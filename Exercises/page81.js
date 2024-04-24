@@ -25,8 +25,6 @@ let u_b = +b; //Unary operator '+'
 
 console.log(`"${b}"`, pi_b, pf_b, n_b, u_b);  //`"${a}"` to show as it is.
 
-
-
 //COPY PASTE B TO C
 
 let c = "402 Steven";
@@ -52,3 +50,4 @@ let u_d = +d; //Unary operator '+'
 console.log(`"${d}"`, pi_d, pf_d, n_d, u_d);  //`"${a}"` to show as it is.
 
 console.log(typeof u_d) // NaN is type of a number.
+
