@@ -1,0 +1,14 @@
+<body>
+  <input id="username" placeholder="enter your name here">
+  <div id="output">?</div>
+</body>
+
+<script>
+function greet(name){
+  return "Howdy " + name + "!!!";
+}
+
+output.innerText = greet(username.value);
+username.onkeyup = ()=>{  //I can use "onchange" if I want the greeting after hit enter
+}
+</script>

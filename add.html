@@ -1,0 +1,36 @@
+<body>
+  <input type="number" id="a" value="123"><!--Value attribute is the default value-->
+  <input type="number" id="b" value="456"><!--Value attribute is the default value-->
+  <button id="add">Add</button>
+  <div id="output">?</div>
+</body>
+
+<script>
+function handleClick(event){
+  output.innerText = Number(a.value) + Number(b.value);
+}
+function second(event){
+  output.innerText = "Hello";
+}
+
+
+add.onClick = second;
+add.onclick = handleClick;
+
+//   add.addEventListener("click", (event)=>{
+
+//     // output.innerText = a.value + b.value;
+//     // x = Number(a.value)
+//     // y = Number(b.value)
+
+//     // x = parseInt(a.value)
+//     // y = parseInt(b.value)
+
+//     // x = parseFloat(a.value)
+//     // y = parseFloat(b.value)
+// output.innerText = x + y
+//     // + plus operator concatenates (chain like a train) strings
+//     // + plus operator does addition on numberss.
+//   });
+
+</script>
