@@ -12,17 +12,17 @@ let grossPay = payRate * hoursWorked; //DEFAULT
 // reason = "Under 40 hours";
 
 //CONSTANTS
-const LIMIT = 40;
+const STANDARD_HOURS = 40;
 const overTimeMultiplier = 1.5;
 //EVALUATE EXPRESSION
-const isOver = hoursWorked > LIMIT;
-const isUnder = hoursWorked < LIMIT;
+const isOver = hoursWorked > STANDARD_HOURS;
+const isUnder = hoursWorked < STANDARD_HOURS;
 
 //MAKE A DECISION
-if(hoursWorked > LIMIT){
+if(hoursWorked > STANDARD_HOURS){
 reason = "IS OVER LIMIT"
-const overtimeHours = hoursWorked - LIMIT;
-const basePay = LIMIT * payRate;
+const overtimeHours = hoursWorked - STANDARD_HOURS;
+const basePay = STANDARD_HOURS * payRate;
 const bonusRate = overTimeMultiplier * payRate;
 const extraPay = overtimeHours * bonusRate;
 grossPay = basePay + extraPay;
@@ -32,5 +32,5 @@ grossPay = basePay + extraPay;
 reason = "IS EXACTLY AT LIMIT"}
 
 //FINAL OUTPUT
-console.log("GROSS PAY:", grossPay, "REASON:", reason, LIMIT);
+console.log("GROSS PAY:", grossPay, "REASON:", reason, STANDARD_HOURS);
 
