@@ -12,7 +12,7 @@ let grossPay = payRate * hoursWorked; //DEFAULT
 // reason = "Under 40 hours";
 
 //CONSTANTS
-const STANDARD_HOURS = 40;
+const STANDARD_HOURS = 40;       
 const overTimeMultiplier = 1.5;
 //EVALUATE EXPRESSION
 const isOver = hoursWorked > STANDARD_HOURS;
