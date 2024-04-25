@@ -3,4 +3,6 @@
 length = '';
 width = '';
 
-let 
+let areOfRectangle = length * width;
+
+console.log(areOfRectangle)
