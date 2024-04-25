@@ -12,3 +12,6 @@ let totalDue = foodCost + tax + tip;
 //FINAL OUTPUT
 console.log("The Total Due is ", totalDue)
 
+
+console.log("The toal due is", totalDue, "and", "the tax is", tax)
+console.log("Food Cost is " + foodCost.toFixed(4));
