@@ -3,7 +3,7 @@
 
 
 price = 10
-size = "tiny"
+size = "ትንሽ"
 
 // switch (size) {
 
@@ -20,13 +20,13 @@ size = "tiny"
 // }
 
 
-if(size == "tiny"){
+if(size == "ትንሽ"){
   price -=2;
-}else if(size =="small"){
+}else if(size =="በጣም ትንሽ"){
   price -=2;
-}else if(size =="large"){
+}else if(size =="ትልቅ"){
   price +=2;
-}else if(size == "extra large"){
+}else if(size == "ብጣም ትልቅ"){
   price +=2; 
 }
 
