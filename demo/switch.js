@@ -5,19 +5,19 @@
 price = 10
 size = "ትንሽ"
 
-// switch (size) {
+switch (size) {
 
-//   case "tiny":
-//   case "small": 
-//   price -= 2; 
-//   break;
-// case "extra large":
-// case 'large': 
-// price += 2; 
-// break;
-// default: 
-// break;
-// }
+  case "tiny":
+  case "small": 
+  price -= 2; 
+  break;
+case "extra large":
+case 'large': 
+price += 2; 
+break;
+default: 
+break;
+}
 
 
 if(size == "ትንሽ"){
